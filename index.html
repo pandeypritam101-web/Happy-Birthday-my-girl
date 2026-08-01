@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Riya ❤️</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="loader"><div class="loader-box"><div class="ring"></div><h1>Loading Surprise...</h1><p>Made With ❤️ By Fattu</p></div></div>
+
+<div id="passwordPage">
+<div class="glass">
+<h1>🔐 Secret Birthday Surprise</h1>
+<input type="password" id="pass" placeholder="Enter Password">
+<button onclick="checkPass()">Unlock ❤️</button>
+<p id="wrong"></p>
+</div>
+</div>
+
+<div id="main" style="display:none;">
+<section class="hero">
+<h2>Happy Birthday</h2>
+<h1>Riya ❤️</h1>
+<img src="photo.jpg" class="hero-photo">
+<p class="typing"></p>
+<button id="startBtn">Open My Love 🎁</button>
+</section>
+
+<section id="love-letter">
+<div class="letter-box">
+<h1>💌 A Letter For You</h1>
+<p id="letter">
+Dear Riya ❤️,
+
+Happy Birthday Meri Jaan.
+Tum meri life ki sabse beautiful smile ho.
+Main hamesha tumhare saath rahunga.
+
+I Love You So Much ❤️
+
+Forever Yours,
+Fattu ❤️
+</p>
+<button id="nextBtn">Next Surprise 🎁</button>
+</div>
+</section>
+
+<section id="cakeSection">
+<h1>🎂 Cut Your Birthday Cake 🎂</h1>
+<div class="cake" onclick="cutCake()">🎂</div>
+<p id="cakeText">Tap the cake ❤️</p>
+<canvas id="fireworks"></canvas>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+<audio autoplay loop><source src="music.mp3" type="audio/mpeg"></audio>
+</body>
+</html>

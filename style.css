@@ -1,0 +1,50 @@
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#090909,#1a1026,#000);
+color:#fff;overflow:hidden;
+}
+#loader,#passwordPage,#main{
+width:100%;height:100vh;display:flex;
+justify-content:center;align-items:center;
+}
+.loader-box,.glass{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+padding:35px;border-radius:20px;
+border:1px solid rgba(255,215,0,.3);
+box-shadow:0 0 30px rgba(255,215,0,.15);
+text-align:center;
+}
+.ring{
+width:70px;height:70px;border-radius:50%;
+border:6px solid rgba(255,255,255,.15);
+border-top:6px solid gold;
+margin:0 auto 20px;
+animation:spin 1s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+h1{font-family:'Great Vibes',cursive;font-size:3rem;color:gold}
+h2{font-size:2rem;color:#ffd86b}
+input{
+width:100%;padding:14px;margin:20px 0;
+border:none;border-radius:12px;font-size:16px;
+}
+button{
+padding:14px 30px;border:none;border-radius:30px;
+background:linear-gradient(45deg,gold,#ff69b4);
+color:#111;font-weight:bold;cursor:pointer;
+transition:.3s;
+}
+button:hover{transform:scale(1.05)}
+.hero{text-align:center}
+.typing{margin:20px auto;max-width:700px;font-size:1.1rem}
+
+
+#love-letter{min-height:100vh;display:flex;justify-content:center;align-items:center;padding:30px;background:#090909}
+.letter-box{max-width:700px;background:rgba(255,255,255,.08);backdrop-filter:blur(20px);padding:30px;border-radius:25px;text-align:center;border:1px solid gold}
+#cakeSection{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background:#000}
+.cake{font-size:120px;cursor:pointer}
+
+.hero-photo{width:220px;height:220px;border-radius:50%;object-fit:cover;border:5px solid gold;display:block;margin:20px auto;box-shadow:0 0 30px gold;}
